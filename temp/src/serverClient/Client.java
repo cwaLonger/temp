@@ -30,7 +30,7 @@ public class Client {
 			bw.flush();
 			System.out.println("[Console] message successfully send : " + str);
 			String recievedStr;
-			while(!(recievedStr=br.readLine()).equals("exit"))
+			while(!(recievedStr=br.readLine()).equals("EXIT"))
 				System.out.println(recievedStr);
 			System.out.println("[Console] message successfully recieved");
 		} catch (IOException e) {
