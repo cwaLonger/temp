@@ -1,4 +1,4 @@
-package deadlockState2;
+package deadlock.deadlockState2;
 
 public class Main {
 	public static void main(String[] args){
@@ -29,6 +29,6 @@ public class Main {
 		process1.shouldSetResource2(resource2);
 		process2.shouldSetResource1(resource1);
 		
-		// shouldSetResourceë¡œ 1ì´ˆê°€ ì§€ë‚˜ê³  ê³„ì† í• ë‹¹í•˜ê²Œ í–‰ë™
+		// shouldSetResourceë¡? 1ì´ˆê? ì§??‚˜ê³? ê³„ì† ?• ?‹¹?•˜ê²? ?–‰?™
 	}
 }

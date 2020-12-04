@@ -1,4 +1,4 @@
-package deadlockState3;
+package deadlock.deadlockState3;
 
 public class Main {
 	public static void main(String[] args){
@@ -45,8 +45,8 @@ public class Main {
 			}
 		}.start();
 		
-		// 5ì´ˆ í›„ì— ì ê¸ˆí•´ì œ
-		// í˜„ì¬ ResourceëŠ” Process ì •ë³´ê°€ ì—†ì§€ë§Œ ProcessëŠ” Resource ì •ë³´ê°€ ìˆìŒ. ì´ë¥¼ í•´ê²°í•´ì¤˜ì•¼í•¨
-		// ì½˜ì†”ì´ ë„ˆë¬´ ì§€ì €ë¶„í•˜ê²Œ ë– ì„œ ì´ë¥¼ ì •ë¦¬í•´ì¤˜ì•¼í•¨.
+		// 5ì´? ?›„?— ? ê¸ˆí•´? œ
+		// ?˜„?¬ Resource?Š” Process ? •ë³´ê? ?—†ì§?ë§? Process?Š” Resource ? •ë³´ê? ?ˆ?Œ. ?´ë¥? ?•´ê²°í•´ì¤˜ì•¼?•¨
+		// ì½˜ì†”?´ ?„ˆë¬? ì§???ë¶„í•˜ê²? ?– ?„œ ?´ë¥? ? •ë¦¬í•´ì¤˜ì•¼?•¨.
 	}
 }

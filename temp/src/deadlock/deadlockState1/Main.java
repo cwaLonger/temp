@@ -1,4 +1,4 @@
-package deadlockState1;
+package deadlock.deadlockState1;
 
 public class Main {
 	public static void main(String[] args){
@@ -25,7 +25,7 @@ public class Main {
 		System.out.println(process2.getResource1());
 		System.out.println(process2.getResource2());
 		
-		//ê¸°ë³¸ì ì¸ êµ¬ì¡°
-		//Processê°€ Resourceë¥¼ ì„ ì í•˜ë©´ ë‹¤ë¥¸ ProcessëŠ” ê°™ì€ Resourceë¥¼ ì„ ì í•  ìˆ˜ ì—†ë‹¤.
+		//ê¸°ë³¸? ?¸ êµ¬ì¡°
+		//Processê°? Resourceë¥? ?„ ? ?•˜ë©? ?‹¤ë¥? Process?Š” ê°™ì? Resourceë¥? ?„ ? ?•  ?ˆ˜ ?—†?‹¤.
 	}
 }

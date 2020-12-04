@@ -1,4 +1,4 @@
-package deadlockState3;
+package deadlock.deadlockState2;
 
 public class Process {
 	private String ID;
@@ -83,30 +83,6 @@ public class Process {
 						}
 					}
 				}
-			}
-		}.start();
-	}
-	
-	public void shouldAct(){
-		new Thread(){
-			private int tryCount = 0;
-			public void run(){
-				while(true){
-					if(resource1 != null && resource2 != null){
-						System.out.println(ID + "] " + resource1.getInformation() + ":" + resource2.getInformation());
-						break;
-					}
-					else{
-						try {
-							System.out.println(ID + "] try in " + tryCount++);
-							sleep(1000);
-						} catch (InterruptedException e) {
-							e.printStackTrace();
-						}
-					}
-				}
-				resource1.freeProcess();
-				resource2.freeProcess();
 			}
 		}.start();
 	}

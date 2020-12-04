@@ -1,4 +1,4 @@
-package deadlockRefactor;
+package deadlock.deadlockRefactor;
 
 public class Resource {
 	private String process = null;

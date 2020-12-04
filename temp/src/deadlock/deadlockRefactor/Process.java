@@ -1,4 +1,4 @@
-package deadlockRefactor;
+package deadlock.deadlockRefactor;
 
 import java.util.Vector;
 

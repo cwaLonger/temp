@@ -1,4 +1,4 @@
-package deadlockState2;
+package deadlock.deadlockState3;
 
 public class Resource {
 	private String ID;
